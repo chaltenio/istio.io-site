@@ -233,7 +233,7 @@ to enable it.  You can execute the following once:</p>
 </tr>
 <tr>
 <td><code>--log_rotate_max_age &lt;int&gt;</code></td>
-<td>The maximum age in days of a log file beyond which the file is rotated (0 indicates no limit)  (default `30`)</td>
+<td>The maximum age in days of log file backups to keep before older files are deleted (0 indicates no limit)  (default `30`)</td>
 </tr>
 <tr>
 <td><code>--log_rotate_max_backups &lt;int&gt;</code></td>
@@ -453,12 +453,6 @@ https://www.envoyproxy.io/docs/envoy/latest/intro/arch_overview/security/ssl#fip
 <td>Boolean</td>
 <td><code>true</code></td>
 <td>If enabled, pilot will only rebuild config for resources that have changed</td>
-</tr>
-<tr>
-<td><code>ENABLE_OTEL_BUILTIN_RESOURCE_LABELS</code></td>
-<td>Boolean</td>
-<td><code>false</code></td>
-<td>If enabled, envoy will send builtin labels(e.g. node_name) via OTel sink.</td>
 </tr>
 <tr>
 <td><code>ENABLE_PROBE_KEEPALIVE_CONNECTIONS</code></td>
@@ -1049,7 +1043,7 @@ Only applies when traffic from all groups (i.e. &#34;*&#34;) is being redirected
 <tr>
 <td><code>PILOT_MULTI_NETWORK_DISCOVER_GATEWAY_API</code></td>
 <td>Boolean</td>
-<td><code>false</code></td>
+<td><code>true</code></td>
 <td>If true, Pilot will discover labeled Kubernetes gateway objects as multi-network gateways.</td>
 </tr>
 <tr>
@@ -1189,12 +1183,6 @@ Only applies when traffic from all groups (i.e. &#34;*&#34;) is being redirected
 <td>String</td>
 <td><code></code></td>
 <td>Additional config map to load for shared MeshConfig settings. The standard mesh config will take precedence.</td>
-</tr>
-<tr>
-<td><code>STACKDRIVER_AUDIT_LOG</code></td>
-<td>Boolean</td>
-<td><code>false</code></td>
-<td>If enabled, StackDriver audit logging will be enabled.</td>
 </tr>
 <tr>
 <td><code>TERM</code></td>

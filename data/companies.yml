@@ -353,7 +353,7 @@ pro_services:
       - "CloudRaft specializes in full-stack cloud-native solutions, including expert support for Istio service mesh integration. With extensive experience in cloud consulting, Kubernetes deployment, and Istio implementation, we ensure seamless operation within your environment. From consulting to training and production support, our comprehensive services maximize efficiency and scalability. With proven expertise and a client-centric approach, CloudRaft is your trusted partner for unlocking Istio's full potential in Kubernetes."
   - name: "Your Name Here"
     logo: "/logos/istio.svg"
-    url: "https://istio.io/"
+    url: "https://github.com/istio/community/blob/master/CONTRIBUTING.md#promote-your-company-on-istioio"
     description: "Submit a PR to add your company here!"
     details:
       - "Add information about your how your company supports Istio."
@@ -594,3 +594,50 @@ users:
   - name: "GoTo Financial"
     logo: "/logos/gotofinancial.svg"
     url: "https://gotofinancial.com/"
+
+training:
+  - name: "Introduction to Istio"
+    logo: "/logos/lf-training.png"
+    url: "https://training.linuxfoundation.org/training/introduction-to-istio-lfs144/"
+    description: "Introduction to Istio"
+    details:
+      - "This course is a practical introduction to Istio, designed for anyone who wishes to build on their knowledge of Linux, Docker, and Kubernetes to learn how to install and configure a service mesh and to understand the benefits of deploying and running distributed applications in a service mesh environment."
+  - name: "Istio Service Mesh Essentials"
+    logo: "/logos/lf-training.png"
+    url: "https://training.linuxfoundation.org/training/istio-service-mesh-essentials-lfs245/"
+    description: "Istio Service Mesh Essentials"
+    details:
+      - "This course is for application developers, DevOps engineers and security professionals, familiar with Kubernetes, who need a service mesh layer to effectively operate their containerized systems."
+      - "Learn Istio essentials such as: explaining the basic building blocks of Envoy proxy and how it fits within Istio; using IstioOperator API to install, configure; and secure the mesh; manage traffic using Istio CRDs and Gateway API; and create policies to install Istio across multiple clusters."
+  - name: "Istio Service Mesh"
+    logo: "/logos/kk-training.svg"
+    url: "https://kodekloud.com/courses/istio-service-mesh/"
+    description: "Istio Service Mesh"
+    details:
+      - "In this course, you will gain a comprehensive understanding of Istio and its architecture. You will learn how to install Istio on a Kubernetes cluster and explore the fundamental concepts of Istio, including its service mesh capabilities."
+      - "The course will cover traffic management features such as load balancing, as well as important security aspects including authentication and authorization. Additionally, you will discover how to implement A/B testing and blue-green deployments using Istio."
+      - "KodeKloud's hands-on labs will help you get started with Istio step by step. First, you'll learn how to install Istio on your cluster and deploy your first application. Then, you'll explore virtual services and destination rules, understand Istio's security features, and practice with our observability lab."
+      - "Each lab is designed to be practical and easy to follow, making it simple for you to learn and apply your new skills."
+  - name: "Your Name Here"
+    logo: "/logos/istio.svg"
+    url: "https://github.com/istio/community/blob/master/CONTRIBUTING.md#promote-your-company-on-istioio"
+    description: "Submit a PR to add your professional Istio course details here!"
+    details:
+      - "Add information about your what the course focuses on"
+      - "You can add multiple paragraphs."
+
+certification:
+  - name: "Istio Certified Associate"
+    logo: "/logos/ica-icon-color.svg"
+    url: "https://training.linuxfoundation.org/certification/istio-certified-associate-ica/"
+    description: "The Istio Certified Associate (ICA)"
+    details:
+      - "The Istio Certified Associate (ICA) exam demonstrates a solid understanding of Istio principles, terminology, and best practices for setting up Istio."
+      - "The ICA is a pre-professional certification designed for engineers, CI/CD practitioners, or anyone with special interests in Istio. A certified ICA will confirm their foundational knowledge of Istio principles, terminology, and best practices and demonstrate their ability to set up Istio."
+  - name: "Your Name Here"
+    logo: "/logos/istio.svg"
+    url: "https://github.com/istio/community/blob/master/CONTRIBUTING.md#promote-your-company-on-istioio"
+    description: "Submit a PR to add your professional Istio certification exam details here!"
+    details:
+      - "Add information about your how the certification exam can be taken"
+      - "You can add multiple paragraphs."
